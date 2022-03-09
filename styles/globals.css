@@ -1,17 +1,28 @@
 
-div.full-page{
-  height: 55rem;
+
+@font-face {
+  font-family: 'Black Ops One';
+  src: local('Black Ops One'), url(./fonts/Black_Ops_One/BlackOpsOne-Regular.ttf) format('truetype');
 }
+
+
+@font-face {
+  font-family: 'Wallpoet';
+  src: local('Wallpoet'), url(./fonts/Wallpoet/Wallpoet-Regular.ttf) format('truetype');
+}
+
+
+div.full-page{
+  height: 34rem;
+  margin-top: -300px;
+}
+
 
 .particle-background{
   position: fixed;
   z-index: -5;
 }
 
-@font-face {
-  font-family: 'Black Ops One';
-  src: local('Black Ops One'), url(./fonts/Black_Ops_One/BlackOpsOne-Regular.ttf) format('truetype');
-}
 
 .head-position{
   z-index: 10;
@@ -21,13 +32,14 @@ div.full-page{
 
 .name-head{
   background-color: #faed27;
-  color: rgb(0, 0, 0);
+  color: blacks;
   font-size: 66px;
   font-family: 'Black Ops One', cursive;
   margin-left: 48%;
   margin-top: 300px;
   
 }
+
 
 .second-head{
   font-size: 25px;
@@ -37,6 +49,47 @@ div.full-page{
  
 }
 
+
 .title-head{
   margin-top: -4.01%;
+}
+
+
+.circles-bar{
+  margin-top: 5px;
+}
+
+
+.menu-text{
+  font-size: 30px;
+  font-family: 'Wallpoet', cursive;
+  color: black;
+  background-color: #39FF14; 
+  
+}
+
+
+.menu-text:hover{
+  background-color: #faed27;
+  cursor: pointer;
+}
+
+
+.menu-box{
+  text-align: right;
+  line-height: 60px;
+  margin-left: 80%;
+  margin-top: -20%;
+}
+
+
+.circle-png{
+  margin-bottom: 9.5px;
+  margin-left: -3.8%;
+  height: 4rem;
+  width: 4rem;
+}
+
+.circle-link:hover{
+  background-color: #39FF14;
 }
